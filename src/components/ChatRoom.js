@@ -11,7 +11,9 @@ const ChatRoom = () => {
   const messageRef = firestore.collection("ankit");
   const query = messageRef.orderBy("createdAt").limit(25);
 
-  const [messages, loading] = useCollectionData(query, { idField: "id" });
+  const [messages, loading, error] = useCollectionData(query, {
+    idField: "id",
+  });
 
   const sendMessage = async (e) => {
     e.preventDefault();
@@ -29,7 +31,7 @@ const ChatRoom = () => {
 
   return (
     <div className="chat-room">
-      {!loading && messages ? (
+      {messages ? (
         <div className="messages">
           <ul className="message-list">
             {messages.map((message) => (
