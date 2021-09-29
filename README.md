@@ -1,5 +1,5 @@
 # ChatApp (Telegram Clone)
-### ([HTML] | [CSS] | [ReactJS] | [Firebase])
+### ([ReactJS] | [Firebase])
 
 A telegram clone built using Firebase and ReactJS.
 
@@ -16,8 +16,5 @@ Test the live app [here]
 - [Firebase]
 
 [ReactJS]: <https://reactjs.org/>
-[PostgreSQL]: <https://www.postgresql.org/docs/>
-[ExpressJS]: <http://expressjs.com/>
-[NodeJS]: <https://nodejs.org/en/docs/>
-[REST API]: <https://restfulapi.net/>
-[here]: <>
+[Firebase]: <https://firebase.google.com/docs>
+[here]: <https://chatgram-telegram-clone.netlify.app/>
