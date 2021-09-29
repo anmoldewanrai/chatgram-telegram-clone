@@ -9,17 +9,15 @@ Test the live app [here]
 - Group chat 
 - Different chat rooms
 - Mobile Responsive
+- Google Sign In
 
 ## Tech
 - [ReactJS]
 - [Firebase]
 
-## Installation
-After unzipping or cloning the repo. Follow the instruction below:
-```sh
-cd chatapp-telegram-clone-master
-npm init
-
-```
-
-
+[ReactJS]: <https://reactjs.org/>
+[PostgreSQL]: <https://www.postgresql.org/docs/>
+[ExpressJS]: <http://expressjs.com/>
+[NodeJS]: <https://nodejs.org/en/docs/>
+[REST API]: <https://restfulapi.net/>
+[here]: <>
