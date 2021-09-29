@@ -5,6 +5,8 @@ A telegram clone built using Firebase and ReactJS.
 
 Test the live app [here]
 
+(public/github-readme-img-desktop.png)
+
 ## Features
 - Group chat 
 - Different chat rooms
